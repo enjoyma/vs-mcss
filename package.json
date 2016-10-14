@@ -1,0 +1,26 @@
+{
+    "name": "mcss",
+    "displayName": "mcss",
+    "description": "Syntax highlight for mcss",
+    "version": "0.0.1",
+    "publisher": "EnjoyMa",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mcss",
+            "aliases": ["MCSS", "mcss"],
+            "extensions": [".mcss"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mcss",
+            "scopeName": "source.css.less",
+            "path": "./syntaxes/mcss.tmLanguage"
+        }]
+    }
+}

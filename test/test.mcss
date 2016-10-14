@@ -1,0 +1,24 @@
+@abstract '../config.mcss';
+@import 'dialog.mcss';
+
+.m-bg{
+	position:relative;
+}
+
+$border-radius = ($radius = 5px){
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.m-test{
+	$height = 100px;
+	height:$height;
+	background-color:#f0f0f0;
+	$border-radius: 5px;
+	&-dis{
+		display:inline-block;
+	}
+}
+
+
