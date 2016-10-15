@@ -2,7 +2,7 @@
     "name": "mcss",
     "displayName": "mcss",
     "description": "Syntax highlight for mcss",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "EnjoyMa",
     "icon": "images/logo.png",
     "repository": {
@@ -16,16 +16,25 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "mcss",
-            "aliases": ["MCSS", "mcss"],
-            "extensions": [".mcss"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "mcss",
-            "scopeName": "source.css.less",
-            "path": "./syntaxes/mcss.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "mcss",
+                "aliases": [
+                    "MCSS",
+                    "mcss"
+                ],
+                "extensions": [
+                    ".mcss"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "mcss",
+                "scopeName": "source.css.less",
+                "path": "./syntaxes/mcss.tmLanguage"
+            }
+        ]
     }
 }

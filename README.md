@@ -3,7 +3,8 @@ Mcss language colorization extension for Visual Studio Code. You can learn more 
 
 ## Usage
 Just install the extension and open any `.mcss` file.
-![Mcss Syntax Highlight](/images/mcss-syntax-highlight.png "FreeMarker Syntax Hightlight")
+
+![Mcss Syntax Highlight](/images/mcss-syntax-highlight.png "Mcss Syntax Hightlight")
 
 ## Contributing
 Contributions are welcome. Fork the repo and create a pull request with your changes.
